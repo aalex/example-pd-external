@@ -1,0 +1,7 @@
+#N canvas 694 278 528 407 10;
+#X obj 224 128 example;
+#X floatatom 232 184 5 0 0 0 - - -;
+#X msg 228 31 blah foo;
+#X text 89 0 It doesn't do much.;
+#X connect 0 0 1 0;
+#X connect 2 0 0 0;
