@@ -12,7 +12,7 @@ SOURCES = example.cpp
 PDOBJECTS = 
 
 # example patches and related files, in the 'examples' subfolder
-EXAMPLES = show_example.pd
+EXAMPLES = simple.pd
 
 # manuals and related files, in the 'manual' subfolder
 MANUAL = manual.txt
@@ -33,7 +33,7 @@ CC = g++
 
 # -I"$(PD_INCLUDE)/pd" supports the header location for 0.43
 
-DEPS=liblo spatosc-0.3
+DEPS=liblo
 CFLAGS = -I"$(PD_INCLUDE)/pd" -Wall -W -g `pkg-config --cflags $(DEPS)`
 LDFLAGS = 
 LIBS = `pkg-config --libs $(DEPS)`
